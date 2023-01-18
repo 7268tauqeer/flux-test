@@ -1,5 +1,5 @@
 # Number of expected podinfo Pods 
-replicaCount: 2
+replicaCount: 4
 # CPU and memory resource configurations for podinfo deployment
 resources:
 # Memory limit set to 256 Megabytes
