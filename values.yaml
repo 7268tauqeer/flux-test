@@ -1,0 +1,11 @@
+# Number of expected podinfo Pods 
+replicaCount: 2
+# CPU and memory resource configurations for podinfo deployment
+resources:
+# Memory limit set to 256 Megabytes
+  limits:
+    memory: 256Mi
+# CPU requests set to 100 millicores and memory requests set to 64 Megabytes
+  requests:
+    cpu: 100m
+    memory: 64Mi
